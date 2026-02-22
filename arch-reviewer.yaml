@@ -4,7 +4,8 @@ ai:
   temperature: 0.2
 
 risk:
-  fail_on: CRITICAL
+  fail_on: HIGH
+  enforce: true   # true = fail pipeline, false = audit only
 
 output:
   format: text

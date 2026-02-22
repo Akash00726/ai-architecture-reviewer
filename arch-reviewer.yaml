@@ -1,0 +1,10 @@
+ai:
+  provider: openai        # openai | gemini
+  model: gpt-4o-mini     # or gemini-1.5-flash
+  temperature: 0.2
+
+risk:
+  fail_on: CRITICAL
+
+output:
+  format: text
